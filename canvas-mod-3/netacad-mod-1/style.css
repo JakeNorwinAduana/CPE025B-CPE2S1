@@ -1,4 +1,6 @@
-h1, p {
-    font-size: 18px;
-    color: blue;
-  }
+.parent {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 10px;
+}
