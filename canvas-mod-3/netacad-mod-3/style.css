@@ -1,0 +1,16 @@
+.box {
+    /* Content dimensions */
+    width: 200px;
+    height: 100px;
+  /* Padding around content */
+  padding: 20px;
+  
+  /* Border around padding */
+  border: 5px solid #333;
+  
+  /* Margin around border */
+  margin: 30px;
+  
+  /* Additional styles for better visualization */
+  background-color: #f4f4f4;
+  }

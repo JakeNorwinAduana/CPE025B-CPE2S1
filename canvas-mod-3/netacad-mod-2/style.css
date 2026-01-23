@@ -1,0 +1,45 @@
+/* Styles for the header section */
+.header {
+  background-image: url("https://www.gannett-cdn.com/presto/2023/01/26/USAT/fb649dfe-2c9d-411b-ad4e-2c5551e8aff5-USATSI_19841721.jpg");
+  height: 500px;
+  text-align: center;
+  color: white;
+}
+
+/* Styles for the navigation menu */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+/* Styles for the main content */
+.main-content {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Styles for the footer section */
+.footer {
+  background-color: #f4f4f4;
+  padding: 15px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none; /* Remove underline */
+  color: pink;
+
+}
+
+img {
+  width: 600px;
+  height: 300px;
+  border-radius: 50%
+}
