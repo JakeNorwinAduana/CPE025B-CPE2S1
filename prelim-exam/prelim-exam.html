@@ -1,27 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            try
-        </title>
-
+        
     </head>
     <body>
-        <h1>
-            large
-        </h1>
-        <h2>
-            yes
-        </h2>
-        <h3>
-            no
-        </h3>
-        <h4>
-            yes
-        </h4>
-        <p>
-            very small indeed
-        </p>
+        <form>
+        <fieldset>
+        <h1 id="title"> Favorite Color Survey Form</h1>
+        <p id="description"> The purpose of this sruvey is to know your favorite color</p>
 
+        <label for="name" required="true" type="text" alert="This is required">Name:</label>
+        <input type="textbox" id="name">
+        <br>
+        <br>
+        <label for="email" required="true" type="email" alert="This is required">Email:</label>
+        <input type="textbox" id="email">
+        <br>
+        <br>
+        <label for="idnumber" required="true" type="number" alert="This is required">Student ID:</label>
+        <input type="textbox" id="idnumber">
+
+        <div>
+        <p>Select your gender</p>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="NA">Prefer not to say</option>
+        </select>
+        </div>
+
+        <br>
+        <br>
+        <label for="comments1" type="text" alert="This is required">Other:</label>
+        <br>
+        <input type="text" id="comments1">
+        
+
+        <div>
+            <p>Select your favorite color, can be more than one</p>
+            <label for="cboption1">red</label>
+            <input type="checkbox" id="cboption1" name="checkbox" value="red">
+            <label for="cboption2">orange</label>
+            <input type="checkbox" id="cboption2" name="checkbox" value="orange">
+            <label for="cboption3">yellow</label>
+            <input type="checkbox" id="cboption3" name="checkbox" value="yellow">
+            <label for="cboption4">green</label>
+            <input type="checkbox" id="cboption4" name="checkbox" value="green">
+            <br>
+            <label for="cboption5">blue</label>
+            <input type="checkbox" id="cboption5" name="checkbox" value="blue">
+            <label for="cboption6">indigo</label>
+            <input type="checkbox" id="cboption6" name="checkbox" value="indigo">
+            <label for="cboption7">violet</label>
+            <input type="checkbox" id="cboption7" name="checkbox" value="violet">
+            <label for="cboption8">pink</label>
+            <input type="checkbox" id="cboption8" nam="checkbox" value="pink">
+        </div>
+        <div>
+            <br>
+            <br>
+            <label for="comments2" type="text" alert="This is required">Write Other colors if not included:</label>
+            <br>
+            <input type="text" id="comments2">
+        </div>
+        
+
+        <div>
+            <p id="comments0">Other comments</p>
+            <textarea>write your answer here</textarea>
+
+        </div>
+        <p>Please select your preferred contact information</p>
+              <div>
+                <input type="radio" id="contactChoice1" name="contact" value="email" checked>
+                <label for="contactChoice1">Email</label>
+                <input type="radio" id="contactChoice2" name="contact" value="phone">
+                <label for="contactChoice2">Phone</label>
+                <input type="radio" id="contactChoice3" name="contact" value="mail">
+                <label for="contactChoice3">Mail</label>
+        </div>
+
+        </fieldset>
+        <br>
+        <div>
+        <button type="submit" id="submit">submit</button>
+        </div>
+    </form>
     </body>
 </html>
